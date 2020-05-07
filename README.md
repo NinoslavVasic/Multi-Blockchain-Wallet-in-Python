@@ -8,16 +8,19 @@
 
 <h2>Instruction: step by step</h2>
 
-<p>Initial request</p>
+<p>New startup market race - initial requirement </p>
 
-<p> Your new startup is focusing on building a portfolio management system that supports not only traditional assets
-like gold, silver, stocks, etc, but crypto-assets as well! The problem is, there are so many coins out there! It's
-a good thing you understand how HD wallets work, since you'll need to build out a system that can create them.
+<p> Main focus of a newly founded company is to build a portfolio management system (PMS) that supports both, traditional assets
+(like gold, silver, stocks, etc) and currently very hot topic - crypto-assets!!! But, as there are so many coins out there, so our task to understand how HD wallets work, and to build out a system that can create them.
 
-You're in a race to get to the market. There aren't as many tools available in Python for this sort of thing, yet.
-Thankfully, you've found a command line tool, `hd-wallet-derive` that supports not only BIP32, BIP39, and BIP44, but
-also supports non-standard derivation paths for the most popular wallets out there today! However, you need to integrate
-the script into your backend with your dear old friend, Python.
+Race to market should begin !!!
+
+Unfortunately, there aren't as many tools available in Python for this sort of thing, yet.
+
+Thankfully, there is a command line tool, `hd-wallet-derive` that supports not only BIP32, BIP39, and BIP44, but
+also supports non-standard derivation paths for the most popular wallets out there today! 
+
+However, we have to develop and integrate the script at backend with our dearest old friend, Python.
 
 Once you've integrated this "universal" wallet, you can begin to manage billions of addresses across 300+ coins, giving
 you a serious edge against the competition.
@@ -28,7 +31,8 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 <p> Dependencies <p>
    
-- PHP must be installed on your operating system (any version, 5 or 7). Don't worry, you will *not* need to know any PHP.
+- PHP must be installed on your operating system (any version, 5 or 7). Don't worry, you will *not* need to know any PHP
+  (just in case if `./derive` is not working in comand line, we will use it as a backup in one coding line).
 
 - You will need to clone the [`hd-wallet-derive`](https://github.com/dan-da/hd-wallet-derive) tool.
 
