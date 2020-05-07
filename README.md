@@ -56,7 +56,7 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 - Test that you can run the `./derive` script properly, use one of the examples on the repo's `README.md`.
 
-### NOTE: If one get an error running `./derive`, as it can happen on windows machine then use: `php ./hd-wallet-derive/hd-wallet-derive.php`.
+#### NOTE: If one get an error running `./derive`, as it can happen on windows machine then use: `php ./hd-wallet-derive/hd-wallet-derive.php`.
 
 - Create a file called `wallet.py` -- this will be your universal wallet script.
 
