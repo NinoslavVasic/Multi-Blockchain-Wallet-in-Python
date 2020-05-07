@@ -107,9 +107,9 @@ Your directory tree should look something like this:
 
 ### ETH transaction - using local private blockchain
 
-    <p> ```eth_acc = priv_key_to_account(ETH,eth_PrivateKey) ```
-       ```create_trx(ETH,eth_acc,"0xba51af165c60A32B3d23Df9B332b4A86cED4A1B9", 1000)``` 
-       ```send_trx(ETH, eth_acc,"0xba51af165c60A32B3d23Df9B332b4A86cED4A1B9", 1000)```</p>
+    ```eth_acc = priv_key_to_account(ETH,eth_PrivateKey) ```
+    ```create_trx(ETH,eth_acc,"0xba51af165c60A32B3d23Df9B332b4A86cED4A1B9", 1000)``` 
+    ```send_trx(ETH, eth_acc,"0xba51af165c60A32B3d23Df9B332b4A86cED4A1B9", 1000)```
      
 ### Confirmation of Executed Transaction 
 
@@ -120,7 +120,7 @@ Your directory tree should look something like this:
 
 ## More details on the:
    - iPNB 'https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/Multi-Blockchain-Wallet.ipynb'
-   - codes:  `https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/wallet.py`    </p>
+   - codes:  'https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/wallet.py'
 
 
 
