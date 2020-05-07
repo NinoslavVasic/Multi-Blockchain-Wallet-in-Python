@@ -112,8 +112,10 @@ Your directory tree should look something like this:
    
 
 
-<p> More details on the process and codes  </p>
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/Multi-Blockchain-Wallet.ipynb)
+<p> More details on the:
+   - iPNB 'https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/Multi-Blockchain-Wallet.ipynb'
+   - codes:  `https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/wallet.py`    </p>
+
 
 
 
