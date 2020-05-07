@@ -90,12 +90,12 @@ Your directory tree should look something like this:
 ![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/wallet_object.PNG)
 
 
-1. <p> Executing test transactions by calling the functions from `wallet.py` </p>
+## Executing test transactions by calling the functions from `wallet.py` 
 
    
 
 
-2. <p> BTCTest transaction </p>
+### BTCTest transaction 
 
    <p> ```btc_acc = priv_key_to_account(BTCTEST,btc_PrivateKey) ```
        ```create_trx(BTCTEST,btc_acc,"miZgMxdGzSxCTpWazfD2KqhewoUvcQ6CC1", 0.1)``` 
@@ -105,20 +105,20 @@ Your directory tree should look something like this:
 
 ![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/btc-confirmation%20-trx.PNG)
 
-3. <p> ETH transaction - using local private blockchain, and adding nodes on MyCripto </p>
+### ETH transaction - using local private blockchain
 
     <p> ```eth_acc = priv_key_to_account(ETH,eth_PrivateKey) ```
        ```create_trx(ETH,eth_acc,"0xba51af165c60A32B3d23Df9B332b4A86cED4A1B9", 1000)``` 
        ```send_trx(ETH, eth_acc,"0xba51af165c60A32B3d23Df9B332b4A86cED4A1B9", 1000)```</p>
      
-<p> Confirmation of Executed Transaction </p>
+### Confirmation of Executed Transaction 
 
 ![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/eth_-trx-conf.PNG)
 
    
 
 
-<p> More details on the:
+## More details on the:
    - iPNB 'https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/Multi-Blockchain-Wallet.ipynb'
    - codes:  `https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/wallet.py`    </p>
 
