@@ -11,30 +11,30 @@
 <p>New startup market race - initial requirement </p>
 
 <p> Main focus of a newly founded company is to build a portfolio management system (PMS) that supports both, traditional assets
-(like gold, silver, stocks, etc) and currently very hot topic - crypto-assets!!! But, as there are so many coins out there, so our task to understand how HD wallets work, and to build out a system that can create them.
+(like gold, silver, stocks, etc) and currently very hot topic - crypto-assets!!! But, as there are so many coins out there, our task to understand how HD wallets work, and to build out a system that can create them.
 
-Race to market should begin !!!
+## Race to the market: Let the games begin !!!
 
 Unfortunately, there aren't as many tools available in Python for this sort of thing, yet.
 
 Thankfully, there is a command line tool, `hd-wallet-derive` that supports not only BIP32, BIP39, and BIP44, but
 also supports non-standard derivation paths for the most popular wallets out there today! 
 
-However, we have to develop and integrate the script at backend with our dearest old friend, Python.
+Indeed, we have to develop and integrate the script `wallet.py` at backend with our dearest old friend, Python.
 
-Once you've integrated this "universal" wallet, you can begin to manage billions of addresses across 300+ coins, giving
-you a serious edge against the competition.
+Once we integrate this "universal" wallet, we can use it to manage billions of addresses across 300+ coins, and it will give
+us serious edge against the competition.
 
-In this assignment, however, you will only need to get 2 coins working: Ethereum and Bitcoin Testnet.
+In this assignment, we will only need to get 2 coins working: Ethereum and Bitcoin Testnet.
 Ethereum keys are the same format on any network, so the Ethereum keys should work with your custom networks or testnets. </p>
 
 
 <p> Dependencies <p>
    
 - PHP must be installed on your operating system (any version, 5 or 7). Don't worry, you will *not* need to know any PHP
-  (just in case if `./derive` is not working in comand line, we will use it as a backup in one coding line).
+  (just in case if `./derive` is not working in comand line, which in my experience happened on Windows machine, we will use it as a    backup in one coding line).
 
-- You will need to clone the [`hd-wallet-derive`](https://github.com/dan-da/hd-wallet-derive) tool.
+- We have to clone the [`hd-wallet-derive`](https://github.com/dan-da/hd-wallet-derive) tool.
 
 - [`bit`](https://ofek.github.io/bit/) Python Bitcoin library.
 
@@ -50,7 +50,7 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 - Create a symlink called `derive` for the `hd-wallet-derive/hd-wallet-derive.php` script into the top level project
   directory like so: `ln -s hd-wallet-derive/hd-wallet-derive.php derive`
-
+ 
   This will clean up the command needed to run the script in our code, as we can call `./derive`
   instead of `./hd-wallet-derive/hd-wallet-derive.php`.
 
@@ -64,7 +64,7 @@ Your directory tree should look something like this:
 
 ![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/tree.png)
 
-### Setup constants
+### Setup constants file to manage coins
 
 - In a separate file, `constants.py`, set the following constants:
   - `BTC = 'btc'`
@@ -75,7 +75,7 @@ Your directory tree should look something like this:
 
 - Use these anytime you reference these strings, both in function calls, and in setting object keys.
 
-### Generate a Mnemonic
+### Generate a Mnemonic phrase
 
 - Generate a new 12 word mnemonic using `hd-wallet-derive` or by using [this tool](https://iancoleman.io/bip39/).
 
