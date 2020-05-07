@@ -1,14 +1,12 @@
 <h1>Blockchain with Python </h1>
 
+![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/newtons-coin-cradle.jpg)
+
 <h1> MultiWallet<h1>
 
 
 
 <h2>Instruction: step by step</h2>
-
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/newtons-coin-cradle.jpg)
-
-
 
 <p>Initial request</p>
 
@@ -79,9 +77,12 @@ Your directory tree should look something like this:
 - Set this mnemonic as an environment variable, and include the one you generated as a fallback using:
   `mnemonic = os.getenv('MNEMONIC', 'insert mnemonic here')`
 
+### Deriving a wallet
 
+- Pass as variables Mnemonic (--mnemonic), Coin (--coin) and Numderive (--numderive), then set the --format=json flag,  parse the output   into a JSON object using json.loads(output).And finally pass all into one function, called 'derive_wallets'.
+- When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-
+![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/wallet_object.PNG)
 
 
 1. <p> Executing test transactions by calling the functions from `wallet.py` </p>
