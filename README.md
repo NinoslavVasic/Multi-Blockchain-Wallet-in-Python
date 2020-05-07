@@ -6,7 +6,7 @@
 
 <h2>Instruction: step by step</h2>
 
-![](slika cradle s github)
+![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/newtons-coin-cradle.jpg)
 
 
 
@@ -59,7 +59,7 @@ NOTE: If one get an error running ./derive, as it can happen on windows machine 
 
 Your directory tree should look something like this:
 
-![](slika directory)
+![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/tree.png)
 
 ### Setup constants
 
@@ -90,13 +90,14 @@ Your directory tree should look something like this:
 
 
 2. <p> BTCTest transaction </p>
+
    <p> ```btc_acc = priv_key_to_account(BTCTEST,btc_PrivateKey) ```
        ```create_trx(BTCTEST,btc_acc,"miZgMxdGzSxCTpWazfD2KqhewoUvcQ6CC1", 0.1)``` 
        ```send_trx(BTCTEST,btc_acc,'miZgMxdGzSxCTpWazfD2KqhewoUvcQ6CC1',0.1)```</p>
   
  <p> Confirmation of Executed Transaction </p>
 
-![](btc-conf)
+![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/btc-confirmation%20-trx.PNG)
 
 3. <p> ETH transaction - using local private blockchain, and adding nodes on MyCripto </p>
 
@@ -106,13 +107,13 @@ Your directory tree should look something like this:
      
 <p> Confirmation of Executed Transaction </p>
 
-![](confirmacija eth)
+![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/eth_-trx-conf.PNG)
 
    
 
 
 <p> More details on the process and codes  </p>
-![](wallet.py)
+![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/Multi-Blockchain-Wallet.ipynb)
 
 
 
