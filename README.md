@@ -86,8 +86,8 @@ Your directory tree should look something like this:
 
 - Pass as variables Mnemonic (--mnemonic), Coin (--coin) and Numderive (--numderive), then set the --format=json flag,  parse the output   into a JSON object using json.loads(output).And finally pass all into one function, called 'derive_wallets'.
 - When done properly, the final object should look something like this (there are only 3 children each in this image):
-
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/wallet_object.PNG)
+- Accounts used in the project are marked for BTC Test and ETH
+![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/Inked_wallet_object1_LI.jpg)
 
 
 ## Executing test transactions by calling the functions from `wallet.py` 
